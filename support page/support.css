@@ -1,0 +1,42 @@
+.main-nav{
+    margin-bottom: .23rem;
+}
+
+.support-header{
+    background-color: #170548;
+    height: 8vh;
+    width: 100vw;
+}
+
+.main-body{
+    margin: 3rem 2rem;
+    color:  #000;
+}
+
+.support-title{
+    color: #170548;
+}
+
+.first-div h5{
+    color: #170548;  
+}
+
+strong{
+    color: #170548;
+}
+
+@media(min-width: 768px) {
+
+    .main-body {
+        max-width: 477px;
+        margin: 5rem auto;
+    }
+}
+
+@media(min-width:1300px){
+
+    .main-body{
+        max-width: 850px;
+        margin: 3rem auto;
+    }
+}

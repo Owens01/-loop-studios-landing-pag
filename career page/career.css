@@ -1,0 +1,99 @@
+body{
+    background-color: #ffffff;
+}
+
+.main-nav{
+    margin-bottom: 1.5rem;
+}
+
+.career-header{
+    background: url("./images/gaming-pad_mobile.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    width: 100vw;
+}
+
+.title{
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    margin: 0 1.6rem;
+}
+
+.main-body{
+    margin: 3rem 2rem;
+    color:  #000;
+}
+
+.sub-title{
+    border: 1px solid;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    margin: 0 1.6rem;
+    background-color: #170548;
+}
+
+strong{
+    color: #170548;
+}
+
+.mail{
+    text-decoration: none;
+}
+
+.mail:hover{
+    color: #866de4;
+}
+
+@media(min-width: 768px) {
+
+    .main-body {
+        max-width: 477px;
+        margin: 5rem auto;
+    }
+
+    .title {
+        width: 30%;
+    }
+}
+
+@media(min-width: 1024px){
+    .career-header{
+        background: url("./images/gaming-pad_desktop.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .title{
+        color: #fff;
+        border: 1px solid #fff;
+        width: 20vw;
+        margin: 0;
+        margin-left: 6.8rem;
+    }
+
+    .main-body{
+        display: flex;
+        justify-content: center;
+        gap: 100px;
+        max-width: 850px;
+        margin: 5rem auto;
+    }
+
+    .career-page{
+        width: 30vw;
+    }
+    
+    .sub-title{
+        width: 18vw;
+        margin: 0;
+    }
+
+    .follow-us{
+        width: 25vw;
+        display: flex;
+        flex-direction: column;
+        align-self: flex-end;
+    }
+}

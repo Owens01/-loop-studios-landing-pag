@@ -1,0 +1,91 @@
+.main-nav{
+    margin-bottom: 1.5rem;
+}
+
+.about-header{
+    height: 60vh;
+    background: url("./image/image-nav_mobile.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.title{
+    color: #fff;
+    border: 1px solid #fff;
+    /* width: 68vw; */
+    padding: 0.5rem 1.8rem;
+    margin: 0 1.6rem;
+}
+
+.main-body{
+    margin: 3rem 1rem;
+    color:  #000;
+}
+
+.sub_title{
+    border: 1px solid;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    margin: 0 1.6rem;
+    background-color: #170548;
+}
+
+.founder{
+    text-align: center;
+}
+
+.founder-name{
+    margin: 0;
+    color: #170548;
+}
+
+.founder-image{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    transform: rotate(90deg);
+}
+
+@media(min-width: 768px) {
+
+    .main-body {
+        max-width: 477px;
+        margin: 5rem auto;
+    }
+
+    .title {
+        width: 30%;
+    }
+}
+
+@media(min-width:1024px){
+    .about-header{
+        background: url("./image/image-nav_desktop.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 50vh;
+        width: 100vw;
+    }
+
+    .title{
+        color: #fff;
+        border: 1px solid #fff;
+        width: 20vw;
+        margin: 0;
+        margin-left: 6.8rem;
+    }
+
+    .main-body{
+        display: flex;
+        gap: 40px;
+        max-width: 850px;
+    }
+
+    .about-us{
+        width: 30vw;
+    }
+
+    .founder{
+        margin: 21rem 0 0 15rem;
+    }
+}

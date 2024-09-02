@@ -1,0 +1,92 @@
+.product-header{
+    background-color: #170548;
+    height: 8vh;
+    width: 100vw;
+}
+
+.main-nav{
+    margin-bottom: 0%;
+}
+
+.games-fast_image{
+    background: url("./image/game\ fast\ 2024.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
+    width: 100vw;
+}
+
+.main-body{
+    margin: 3rem 2rem;
+    color:  #000;
+}
+
+strong{
+    color: #170548;
+}
+
+.price-tag__div{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #170548;
+    padding: 0.5rem 1rem;
+    margin: 0 1.6rem;
+    width: 40vw;
+}
+
+.price-tag{
+    margin-top: 0%;
+    color: #170548;
+}
+
+.second-div{
+    margin-top: 1rem;
+}
+
+.support-link{
+    color: #170548;
+}
+
+@media(min-width: 768px) {
+
+    .games-fast_image {
+        height: 50vh;
+    }
+    
+    .main-body {
+        max-width: 477px;
+        margin: 5rem auto;
+    }
+
+    .price-tag__div {
+        max-width: 170px;
+    }
+}
+
+@media(min-width: 1024px){
+    .games-fast_image{
+        background: url("./image/game\ fast\ 2024.jpg");
+        background-repeat: repeat;
+    }
+
+    .main-body{
+        display: flex;
+        justify-content: center;
+        gap: 5rem;
+        max-width: 850px;
+        margin: 3rem auto;
+    }
+
+    .first-div{
+        width: 30vw;
+    }
+
+    .second-div{
+        width: 30vw;
+    }
+
+    .price-tag__div{
+        width: 10vw;
+    }
+
+}
